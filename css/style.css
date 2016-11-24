@@ -1,15 +1,22 @@
 body{
-	background:#00385B;
+	background:#2B6CA3;
 	color:white;
 }
 .jumbotron{
-	background:#00385B;
+	background:#BADA55;
 }
-.t{
-	margin-top:0px;
+#tel{
 	margin-bottom:0px;
+	margin-top:55px;
+	font-family:times new roman;
 }
-#margin{
-	margin-top:0px;
-	margin-bottom:0px;
+#email{
+	font-family:times new roman;
+}
+#ironing,#drycleaning,#delivery{
+	margin-top:70px;
+}
+#contact{
+	margin-top:5px;
+	margin-bottom:-40px;
 }
