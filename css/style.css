@@ -20,3 +20,14 @@ body{
 	margin-top:5px;
 	margin-bottom:-40px;
 }
+#prices,#pricesinfo{
+	font-size:120%;
+}
+#disc{
+	font-weight:bold;
+	color:#2F2E2E;
+}
+.pricesbackground{
+	background:#72C6E5;
+	padding:25px;
+}
