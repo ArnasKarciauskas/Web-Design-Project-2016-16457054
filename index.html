@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="css/style.css"/>
 	</head>
 	<body>
-	<div class="navbar-static-top navbar-default">
+	<div class="navbar-fixed-top navbar-default">
 		<div class="container">
 			<div class="navbar-brand">
 				<a href="#">Linen</a>
@@ -17,10 +17,11 @@
 			</button>
 			<div class="collapse navbar-collapse navHeaderCollapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>				
+					<li><a href="#home">Home</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#prices">Prices</a></li>
+					<li><a href="#contact">Contact</a></li>				
 				</ul>		
 			</div>
 		</div>
@@ -33,18 +34,15 @@
 					<p id="logo"><img src="logo.png"></p>
 				</div>
 				<div class="col-md-6">
-					<p class="text-right" id="contact"><span><a  href="#" class="btn btn-primary btn-lg">Contact Us</a></span></p>
+					<p class="text-right" id="contact1"><span><a  href="#contactform" class="btn btn-primary btn-lg">Contact Us</a></span></p>
 					<p class="text-right" id="tel">Tel: 046 982 555</p>
-					<p class="text-right" id="email">E-mail: info@linenironing.ie</p>
-					
+					<p class="text-right" id="email1">E-mail: info@linenironing.ie</p>				
+					<p class="text-right" id="openingtimes">Opening times:<br/> Monday-Sunday 09:00 - 20:00</p>				
 				</div>
 			</div>
 		</div>
-	</div>
-	
-
-		
-	<div class="container">
+	</div>			
+	<div class="container" id="services">
 		<div class="row">
 			<div class="col-md-12">
 				<h2 class="text-center">Services</h2>
@@ -75,8 +73,9 @@
 	</div>
 	<br />
 	<br />
-	<br />	
-	<div class="container">
+	<br />
+	<div class="aboutusbackground">
+	<div class="container"  id="about">
 		<div class="row">
 			<div class="col-md-12">
 				<h2 class="text-center">About Us</h2>
@@ -89,14 +88,16 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<p class="text-center">The company was started in 2004 and since then we have been constantly expanding. We provide the highest quality service to our customers by making sure all our work is carried out quickly and efficiently. We are based in Dublin but we offer our services in Meath and Louth as well free of charge. Our staff has years of experience in the industry and use up to date technologies and training. Our biggest asset is our customers and we pride ourselves on being able to provide a 5 star customer service. If you would have any questions about us or our services please do not hesitate to contact us and we will gladly help you with any queries that you might have.</p>
+				<p class="text-center">The company was started in 2004 and since then we have been constantly expanding. We provide the highest quality service to our customers by making sure all our work is carried out quickly and efficiently. We are based in Dublin but we offer our services in Meath and Louth as well free of charge. Our staff has years of experience in the industry and use up to date technologies and training. Our biggest asset is our customers and we pride ourselves on being able to provide a 5 star customer service. If you would have any questions about us or our services please do not hesitate to contact us and we will gladly help you with any queries that you might have, or you can drop in to us at anytime we are open.</p>
 			</div>		
 		</div>
 	</div>
 	<br />
 	<br />
 	<br />
-	<div class="container">
+	</div>
+	<div class="pricesbackground">
+	<div class="container" id="prices">
 		<div class="row">
 			<div class="col-md-12">
 				<h2 class="text-center">Prices</h2>
@@ -106,16 +107,13 @@
 	<br />
 	<br />
 	<br />
-	<div class="pricesbackground">
-	<section class="container-fluid">
 		<div class="container" id="pricesinfo">
-			<div class="row">
+			<div class="row" id="prices">
 			<div class="col-md-12">
 				<p class="text-center">We offer <span id="disc">discounts</span> depending on the amount of items that are brought in. We also do weekly special offers and we inform you about them by a text message and e-mail. Please find general pricing below</p>
 			</div>		
 		</div>
 	</div>
-		</section>
 	<br/>
 	<br/>
 	<div class="container" id="prices">
@@ -140,10 +138,93 @@
 		</div>
 	</div>
 	</div>
+	<div class="contactbackground">
+	<div class="container" id="contact">
+			<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center" id="contactsection">Contact</h2>
+			</div>		
+		</div>
+	</div>
+	<div class="container" id="padding">
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Telephone:</h4>
+				<p class="con">(046) 982 555</p>
+			</div>	
+			<div class="col-md-3">
+				<h4>E-mail:</h4>
+				<p class="con">info@linenironing.ie</p>
+			</div>
+			<div class="col-md-3">
+				<h4>We operate in:</h4>
+				<p class="con">Dublin<br/>Meath<br/>Louth<br/></p>
+			</div>
+			<div class="col-md-3">
+				<h4>Our location:</h4>
+				<p class="con">4 Phibsborough Road, Dublin, County Dublin</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.252025067835!2d-6.275787184401842!3d53.35664438164127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670dd5235a6e3f%3A0x1cbe8b0e74babf6e!2s4+Phibsborough+Rd%2C+Arran+Quay%2C+Dublin!5e0!3m2!1sen!2sie!4v1480102951537" width="250" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>				
+		</div>
+	</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h3 class="text-center">Request a pickup or ask us any questions</h3>
+			</div>		
+		</div>
+	</div>
+	<div class="container" id="contactform">
+		<form role="form">
+			<div class="form-group">
+				<input type="text" class="form-control" id="name" name="name" placeholder="Your name"/>				
+			</div>
+			<div class="form-group">
+				<input type="email" class="form-control" id="email" name="email" placeholder="Your e-mail (example@example.com)"/>
+			</div>			
+			<div class="form-group">
+				<input type="text" class="form-control" id="telephone" name="telephone" placeholder="Your telephone number"/>				
+			</div>			
+			<div class="form-group">
+				<textarea class="form-control" rows="7" name="message" id="message" placeholder="Your message"></textarea>
+			</div>
+			<div class="form-group">
+				<input type="checkbox"/>Send me weekly offers and other promotional content
+			</div>
+			<button type="submit" class="btn btn-default">Send</button>
+		</form>
+	</div>
+	<br/>
+	<div class="footerbackground">
+		<div class="container">
+			<footer class="text-center"><br/>&copy; Arnas Karciauskas<br/>2016</footer>
+		</div>
+	
+	
+	</div>
+	
+
 
 
 	
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<script>
+		$(function() {
+	  $('a[href*="#"]:not([href="#"])').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		  var target = $(this.hash);
+		  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		  if (target.length) {
+			$('html, body').animate({
+			  scrollTop: target.offset().top
+			}, 1000);
+			return false;
+		  }
+		}
+	  });
+	});
+	</script>
 	</body>
 </html>

@@ -4,19 +4,26 @@ body{
 }
 .jumbotron{
 	background:#BADA55;
+	margin-top:50px;
 }
 #tel{
 	margin-bottom:0px;
 	margin-top:55px;
 	font-family:times new roman;
 }
-#email{
+#email1{
 	font-family:times new roman;
+}
+#tel,#email1{
+	color:#2F2E2E;
+}
+#openingtimes{
+	margin-bottom:-5px;
 }
 #ironing,#drycleaning,#delivery{
 	margin-top:70px;
 }
-#contact{
+#contact1{
 	margin-top:5px;
 	margin-bottom:-40px;
 }
@@ -30,4 +37,26 @@ body{
 .pricesbackground{
 	background:#72C6E5;
 	padding:25px;
+}
+.aboutusbackground{
+	background-image:url("../aboutus.png");
+	background-attachment:fixed;
+	padding:25px;
+}
+.contactbackground{
+	padding:25px;
+}
+.footerbackground{
+	background:#003448;
+	min-height:100px;
+}
+#padding{
+	padding:35px;
+}
+#contactsection{
+	color:#5AB7E8;
+}
+.con{
+	color:#09405B;
+	font-size:105%;
 }
