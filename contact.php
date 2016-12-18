@@ -1,6 +1,6 @@
 <?php
-$from = "arnaskarciauskas@gmail.com";
-$to = "arnaskarciauskas@gmail"
+$from = "info@linenironing.com";
+$to = "info@linenironing.com"
 $name = Trim(stripslashes($_POST['name']));
 $email = Trim(stripslashes($_POST['email']));
 $telephone = Trim(stripslashes($_POST['telephone']));
